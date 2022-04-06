@@ -43,8 +43,8 @@ end
 # //// Otra forma no optima porque se borra un elemtno del hash ////
 
 # sales_inverted = ventas.invert
-# #=> {15000=>:Enero, 22000=>:Febrero, 12000=>:Marzo, 17000=>:Abril, 81000=>:Mayo, 12000=>:Junio, 
-# # 12000=>:Julio, 12000=>:Agosto, 12000=>:Septiembre, 12000=>:Octubre, 12000=>:Noviembre, 12000=>:Diciembre}
+# #=> {15000=>:Enero, 22000=>:Febrero, 12000=>:Marzo, 17000=>:Abril, 81000=>:Mayo, 13000=>:Junio, 
+# # 21000=>:Julio, 41200=>:Agosto, 25000=>:Septiembre, 21500=>:Octubre, 91000=>:Noviembre, 21000=>:Diciembre}
 
 # search_data.each do |sale|
 # #evaluar si la llave existe o es nil
