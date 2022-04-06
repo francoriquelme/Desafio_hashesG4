@@ -29,7 +29,7 @@ Diciembre: 21000
 
 
 # ///////// Otra forma de hacerlo /////////
-# quarters = {}
+quarters = {}
 
 ventas.values.each_slice(3).each_with_index do |element, index|
     quarters["Q#{index + 1}"] = element.sum
